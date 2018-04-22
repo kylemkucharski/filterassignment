@@ -1,0 +1,46 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+/* Start your base/mobile styles here */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  /* Sets default font-size to 16px, ensuring 1em = 16px; */
+  font-size: 16px;
+}
+
+.container {
+  max-width: 980px;
+  margin-left: 10%;
+}
+
+.item {
+  display: none;
+  width: 50%;
+  padding: 5px;
+  height: 20px;
+  text-align: left;
+}
+
+.item.active {
+  display: block;
+}
+
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+}
+
+h1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+}
+
+h2 {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+}
