@@ -27,20 +27,92 @@ html, body {
   display: block;
 }
 
+.imgcontainer {
+  text-align: center;
+  margin-bottom: 1px;
+}
+
 p {
   margin-left: 10%;
   margin-right: 10%;
   text-align: justify;
+  font-family: 'Lato', sans-serif;
 }
 
 h1 {
   margin-left: 10%;
   margin-right: 10%;
   text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
 }
 
 h2 {
   margin-left: 10%;
   margin-right: 10%;
   text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
 }
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  color: #b83060;
+}
+
+img {
+  max-width: 75%;
+  max-height: 75%;
+  text-align: center;
+}
+
+h4 {
+  font-weight: normal;
+  font-style: italic;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  opacity: 0.5;
+}
+
+/* Tablet/Desktop overrides */
+
+@media(min-width: 681px) {
+  /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+  img {
+    max-width: 50%;
+    max-height: 50%;
+    text-align: center;
+  }
+  h4 {
+    font-weight: normal;
+    font-style: italic;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    opacity: 5%
+  }
+  @media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+    img {
+      max-width: 50%;
+      max-height: 50%;
+      text-align: center;
+    }
+    h4 {
+      font-weight: normal;
+      font-style: italic;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-bottom: auto;
+      margin-top: auto;
+      font-family: 'Lato', sans-serif;
+      text-align: center;
+      opacity: 5%
+    }
